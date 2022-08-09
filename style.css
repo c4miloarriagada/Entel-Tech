@@ -1,0 +1,207 @@
+* {
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+.container-form {
+  margin: 0 auto;
+  height: 100vh;
+  width: 900px;
+  align-items: center;
+  justify-content: space-around;
+}
+h1 {
+  margin-top: 50px;
+}
+nav {
+  height: 100px;
+  margin: 0 auto;
+  width: 100vh;
+}
+nav li {
+  color: white;
+}
+nav a {
+  color: white;
+}
+h3 {
+  color: #042cfc;
+}
+
+.nav {
+  display: flex;
+  float: right;
+  margin-top: 30px;
+  padding: 8px;
+}
+.navbackground {
+  background: #042cfc;
+}
+
+.form__input {
+  border: 1px solid silver !important;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #313a46;
+  height: 40px;
+  padding: 0rem 15px;
+}
+.form__input__patente {
+  border: 1px solid silver !important;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #313a46;
+  height: 40px;
+  padding: 0rem 15px;
+}
+input {
+  display: inline-block;
+  position: relative;
+  top: 3em;
+  right: 9em;
+}
+.form__input__name {
+  border: 1px solid silver !important;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 40px;
+  padding: 0rem;
+  width: 32em;
+  right: 10em !important;
+}
+
+.formulario__label {
+  padding-top: 1em;
+}
+.formulario__label__patente {
+  padding-top: 1em;
+}
+.formulario__label__rut {
+  padding-top: 1em;
+}
+hr {
+  margin-top: 150px;
+}
+select {
+  position: relative;
+  top: 3em;
+  right: 9em !important;
+  width: 10em;
+  border: 1px solid silver !important;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 40px;
+  padding: 0rem;
+  color: #042cfc;
+}
+
+.form__label__color {
+  position: relative !important;
+  text-align: left !important;
+  top: 70px !important;
+  float: left;
+}
+.select__label__color {
+  position: relative !important;
+  text-align: left !important;
+  top: 100px !important;
+  left: -100px;
+}
+button {
+  position: relative;
+  float: right;
+  height: 3em;
+  width: 15em;
+  border: none;
+  border-radius: 10em;
+  background: #ff3d00;
+  font-size: 17px;
+  color: #ffffff;
+  cursor: pointer;
+}
+table {
+  border-spacing: 1em;
+  align-items: center;
+  text-align: left;
+}
+thead {
+  align-items: center;
+}
+
+.total {
+  text-align: center;
+  line-height: 100px;
+}
+.icon {
+  cursor: pointer;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  nav {
+    width: 100%;
+  }
+  .container-form {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+  .formulario__label {
+    position: relative;
+    left: 5px;
+  }
+  .form__input__name {
+    position: relative;
+    top: 15px;
+    left: 2px;
+    width: 25em;
+  }
+  .formulario__label__rut {
+    display: flex !important;
+    position: relative;
+    top: 10px;
+  }
+  .form__input {
+    position: relative;
+    left: 5px;
+    width: 25em;
+  }
+  hr {
+    margin-top: 120px;
+  }
+  .form__input__patente {
+    position: relative;
+    top: 10px;
+    left: 6px;
+    width: 25em;
+  }
+  .form__select {
+    display: flex;
+    position: relative;
+    top: 13px !important;
+    padding: 5px;
+  }
+  .select__label {
+    position: relative;
+    display: flex;
+    left: 5px;
+    width: 25em;
+    top: 10px;
+  }
+  .form__label__color {
+    display: flex;
+    position: relative;
+    margin-top: -50px !important;
+  }
+  .select__label__color{
+    display: flex;
+    position: relative;
+    margin-left: 105px !important;
+    margin-top: -50px;
+    width: 25em;
+  }
+  button{
+   align-items: center;
+    position: relative;
+    right: 30px;
+    top: 25px;
+    width: 20em;
+
+  }
+}

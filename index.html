@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="navbackground">
+      <nav>
+        <img src="logo.png" height="100px" width="90px" />
+        <li class="nav"><a href="list.html">Lista Formulario</a></li>
+        <li class="nav">Formulario</li>
+      </nav>
+    </div>
+    <div class="container-form submit">
+      <h1>Nuevo formulario</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+        dolorem maxime temporibus porro exercitationem. Earum adipisci molestiae
+        pariatur cum, tempore cupiditate porro iusto alias in, magni, optio
+        architecto doloribus. Maxime!
+      </p>
+
+      <form action="" id="form">
+        <h3>Datos del vendedor:</h3>
+        <label class="formulario__label">Nombre y apellido</label>
+        <input
+          autocomplete="off"
+          id="form_input_name"
+          type="text"
+          class="form__input__name"
+          name="nombre"
+          required
+        />
+        <label class="formulario__label__rut" >Rut Vendedor</label>
+        <input autocomplete="off" type="text" class="form__input" name="rut"  required/>
+        <hr />
+        <h3>Datos del vehiculo:</h3>
+        <label class="formulario__label__patente">Patente vehiculo</label>
+        <input
+          autocomplete="off"
+          type="text"
+          class="form__input__patente"
+          name="patente"
+          required
+        />
+        <label class="form__select">Marca vehiculo</label>
+        <select name="marca" id="marca" class="select__label">
+      
+     
+        </select>
+        <label  class="form__select" >Modelo vehiculo</label>
+        <select id="modelo" name="modelo" class="select__label">
+          
+        </select>
+        <label  class="form__label__color" >Color vehiculo</label>
+        <select id="color" name="color" class="select__label__color">
+       
+        </select>
+        <hr />
+        <button type="submit" onclick="formInputs()">Enviar</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
