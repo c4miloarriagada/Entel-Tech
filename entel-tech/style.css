@@ -141,6 +141,7 @@ thead {
   .container-form {
     width: 100% !important;
     margin: 0 auto !important;
+    height: 950px;
   }
   .formulario__label {
     position: relative;
@@ -197,11 +198,9 @@ thead {
     width: 25em;
   }
   button{
-   align-items: center;
-    position: relative;
-    right: 30px;
-    top: 25px;
-    width: 20em;
-
+    margin: 0;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 5px;
   }
 }
