@@ -7,16 +7,16 @@ const autos = ["Audi", "Chevrolet", "Hyundai", "Honda"];
 const modelos = ["A3", "A4", "Aveo", "Cruze", "Getz", "i30", "City", "Civic"];
 const colores = ["Azul", "Blanco", "Rojo", "Cafe"];
 
-const showSelect = (autos, html) => {
+const showSelect = (select, html) => {
   let element = "<option selected disables></option>";
-  autos.map((e) => (element += `<option value=${e}>${e}</option>`));
+  select.map((e) => (element += `<option value=${e}>${e}</option>`));
   html.innerHTML = element;
 };
 
 showSelect(autos, marca);
 showSelect(colores, color);
 
-marca.addEventListener("change", function () {
+marca.addEventListener("change",  () => {
   let value = marca.value;
   switch (value) {
     case "Audi":
